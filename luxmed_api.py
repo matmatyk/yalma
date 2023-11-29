@@ -17,7 +17,7 @@ class LuxmedApiException(Exception):
     pass
 
 
-__APP_VERSION = "4.19.0"
+__APP_VERSION = "4.29.0"
 __CUSTOM_USER_AGENT = f"Patient Portal; {__APP_VERSION}; {str(uuid.uuid4())}; Android; {str(random.randint(23, 29))};" \
                       f" {str(uuid.uuid4())}"
 __BASE_DOMAIN = "https://portalpacjenta.luxmed.pl"
